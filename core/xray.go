@@ -392,7 +392,7 @@ func (s *Instance) Start() error {
 		}
 	}
 
-	errors.LogWarning(s.ctx, "Xray ", Version(), " started")
+	errors.LogWarning(s.ctx, "server ", Version(), " started")
 
 	return nil
 }
